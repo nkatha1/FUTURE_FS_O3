@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Safaricom Rebrand 🌍📱
 
-## Getting Started
+A fresh reimagining of the Safaricom website, built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**. This project showcases Safaricom's services, contact info, and a modern "Meet the Team" section.
 
-First, run the development server:
+Live Demo: [https://future-fs-o3.vercel.app](https://future-fs-o3.vercel.app)
+
+---
+
+## ✨ Features
+
+- ⚡ Fast and responsive UI with **Next.js App Router**
+- 🎨 Styled using **Tailwind CSS**
+- 👨‍💼 Dynamic **"Meet the Team"** page with leadership bios and photos
+- 🌙 Light and dark mode support (via Tailwind's `dark:` classes)
+- 🔗 SEO-optimized with clean meta tags
+- 📱 Mobile-first responsive layout
+- 🔒 Clean folder structure and best practices
+
+---
+
+## 🖼 Preview
+
+![Homepage Preview](public/hero.jpg)
+
+---
+
+## 📁 Folder Structure
+
+safaricom-rebrand/
+├── app/ # App router pages
+│ ├── layout.tsx # Root layout with Navbar and Footer
+│ ├── page.tsx # Home page
+│ ├── about/ # About page (if added)
+│ ├── contact/ # Contact form or info
+│ ├── services/ # Service listing
+│ └── team/ # Meet the Team section
+├── public/
+│ └── images/team/ # Profile images for team members
+├── components/ # Reusable UI components (e.g. Navbar)
+├── styles/ # Global styles (if separate)
+├── package.json
+├── tsconfig.json
+└── README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 🚀 Getting Started Locally
+
+1. **Clone the repo:**
 
 ```bash
+git clone https://github.com/nkatha1/FUTURE_FS_O3.git
+cd safaricom-rebrand
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+# or
+yarn
+Run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit http://localhost:3000 to view it in the browser.
+🧑‍💼 Team Profiles (Meet the Team)
+The /team page displays key Safaricom leadership members:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Dr. Peter Ndegwa — Group CEO
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Dilip Pal — Chief Finance Officer
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Fred W. Waithaka — Chief Corporate Affairs Officer
 
-## Learn More
+Images are stored locally under /public/images/team/.
+🛠️ Built With
+Next.js
 
-To learn more about Next.js, take a look at the following resources:
+React
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+TypeScript
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Tailwind CSS
 
-## Deploy on Vercel
+Vercel — for hosting and deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🌐 Deployment
+This project is deployed using Vercel:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔗 Live Site: https://future-fs-o3.vercel.app
+
+Every push to main automatically deploys the latest version of the site.
+
+✍️ Author
+Nkatha Patience
+💼 Frontend Developer
+📧 nkatha@example.com
+🔗 GitHub: @nkatha1
+
+📄 License
+This project is open source and available under the MIT License.
+
+yaml
+Copy
+Edit
+
+---
+
+## ✅ What to Do Next
+
+- Save this as `README.md` in your project root.
+- Commit and push to GitHub:
+
+```bash
+git add README.md
+git commit -m "Add detailed README"
+git push
+
